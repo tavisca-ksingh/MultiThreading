@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4de877-c997-476a-b3ff-a7831c79faf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassThreadPool/JavaThreadPoolExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassThreadPool/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassThreadPool/MultiThreadPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ClassThreadPool/JavaThreadPoolExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ClassThreadPool/JavaThreadPoolExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,10 +48,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClassThreadPool/MultiThreadPriority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ClassThreadPool/JavaThreadPoolExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="102">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ClassThreadPool/WorkerThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClassThreadPool/WorkerThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClassThreadPool/JavaThreadPoolExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClassThreadPool/MultiThreadPriority.java" />
       </list>
     </option>
   </component>
@@ -148,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaThreadPoolExample">
+  <component name="RunManager" selected="Application.MultiThreadPriority">
     <configuration name="CallAbleExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tavisca.CallAbleExample2" />
       <module name="Circle.main" />
@@ -188,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tavisca.RunnableExample" />
+    <configuration name="MultiThreadPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassThreadPool.MultiThreadPriority" />
       <module name="Circle.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tavisca.*" />
+          <option name="PATTERN" value="ClassThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreadPriority" />
         <item itemvalue="Application.JavaThreadPoolExample" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.CallAbleExample2" />
         <item itemvalue="Application.CallableExample" />
-        <item itemvalue="Application.RunnableExample" />
       </list>
     </recent_temporary>
   </component>
@@ -348,6 +365,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClassThreadPool/JavaThreadPoolExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ClassThreadPool/WorkerThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -359,13 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClassThreadPool/JavaThreadPoolExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClassThreadPool/MultiThreadPriority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
